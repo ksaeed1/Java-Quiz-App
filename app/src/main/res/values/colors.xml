@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="white">#FFFFFFFF</color>
+    <color name="black">#FF000000</color>
+    <color name="gray">#FF808080</color>
+    <color name="orange">#FFFF6D00</color>
+    <color name="blue">#8ADDF2</color>
+    <color name="pink">#FF80B3</color>
+    <color name="purple_500">#6200EE</color>
+    <color name="correct_answer">#4CAF50</color>
+    <color name="default_button">#6B19A2</color>
+    <color name="main">#C146DE</color>
+    <color name="active">#A72EC3</color>
+    <color name="card_bg">#FFFFFF</color>
+    <color name="card_stroke">#CCCCCC</color>
+    <color name="optionColor">#FF000000</color>
+    <color name="gradient_mid">#E688FD</color>
+    <color name="gradient_end">#EBD0F2</color>
+    <color name="dark_background">#FF1E1E1E</color>
+    <color name="dark_card_bg">#FF1E1E1E</color>
+    <color name="dark_gray_stroke">#FF424242</color>
+    <color name="dark_pink">#FF80B3</color>
+    <color name="radio_unselected_bg">#FFFFFFFF</color>
+    <color name="radio_border">#FF808080</color>
+</resources>

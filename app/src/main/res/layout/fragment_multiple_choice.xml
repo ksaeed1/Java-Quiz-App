@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?attr/quiz_background"
+    android:scrollbars="none">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="?attr/quiz_background"
+        android:padding="16dp">
+
+        <ProgressBar
+            android:id="@+id/timerProgressBar"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="16dp"
+            android:max="100"
+            android:progress="100"
+            android:progressDrawable="@drawable/progress_bar" />
+
+        <TextView
+            android:id="@+id/progressTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:text="Question 1 of 20"
+            android:textSize="18sp"
+            android:textColor="?attr/text_colour"/>
+
+        <TextView
+            android:id="@+id/timerTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@id/timerProgressBar"
+            android:layout_alignTop="@id/timerProgressBar"
+            android:layout_alignEnd="@id/timerProgressBar"
+            android:layout_alignBottom="@id/timerProgressBar"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:text="10"
+            android:textColor="?attr/text_colour"
+            android:textSize="24sp" />
+
+        <LinearLayout
+            android:id="@+id/questionCard"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/timerProgressBar"
+            android:layout_marginHorizontal="16dp"
+            android:layout_marginTop="32dp"
+            android:background="@drawable/card_background"
+            android:elevation="4dp"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <TextView
+                android:id="@+id/questionTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:gravity="center"
+                android:text="Which data type is used to store whole numbers in Java?"
+                android:textColor="?attr/text_colour"
+                android:textSize="20sp" />
+
+            <RadioGroup
+                android:id="@+id/optionsRadioGroup"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <RadioButton
+                    android:id="@+id/option1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp"
+                    android:background="@drawable/radio_button_background"
+                    android:button="@android:color/transparent"
+                    android:padding="16dp"
+                    android:text="A) float"
+                    android:textSize="18sp"
+                    android:textColor="@color/optionColor"/>
+
+                <RadioButton
+                    android:id="@+id/option2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp"
+                    android:background="@drawable/radio_button_background"
+                    android:button="@android:color/transparent"
+                    android:padding="16dp"
+                    android:text="B) int"
+                    android:textSize="18sp"
+                    android:textColor="@color/optionColor"/>
+
+                <RadioButton
+                    android:id="@+id/option3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp"
+                    android:background="@drawable/radio_button_background"
+                    android:button="@android:color/transparent"
+                    android:padding="16dp"
+                    android:text="C) boolean"
+                    android:textSize="18sp"
+                    android:textColor="@color/optionColor"/>
+
+                <RadioButton
+                    android:id="@+id/option4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp"
+                    android:background="@drawable/radio_button_background"
+                    android:button="@android:color/transparent"
+                    android:padding="16dp"
+                    android:text="D) double"
+                    android:textSize="18sp"
+                    android:textColor="@color/optionColor"/>
+            </RadioGroup>
+
+        </LinearLayout>
+
+
+        <Button
+            android:id="@+id/nextButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/questionCard"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="32dp"
+            android:backgroundTint="?attr/button_colour"
+            android:padding="16dp"
+            android:text="Next"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+
+        <!-- Position the hint button below the Next button (kirtika)-->
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/nextButton"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="16dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/hintButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="?attr/button_colour"
+                android:gravity="center"
+                android:padding="16dp"
+                android:text="Hint"
+                android:textColor="@color/white"
+                android:textSize="18sp" />
+        </LinearLayout>
+
+        <ImageButton
+            android:id="@+id/menuButton"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:src="@drawable/ic_out"
+            android:background="@null"
+            android:contentDescription="@string/menu_button_desc"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_margin="3dp" />
+
+    </RelativeLayout>
+
+</ScrollView>

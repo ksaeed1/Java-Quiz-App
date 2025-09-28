@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="dark_background">#FF1E1E1E</color>
+    <color name="dark_card_bg">#FF1E1E1E</color>
+    <color name="dark_gray_stroke">#FF424242</color>
+    <color name="dark_pink">#FF80B3</color>
+    <color name="active">#A72EC3</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="gray">#FF424242</color>
+    <color name="radio_unselected_bg">#FF2D2D2D</color>
+    <color name="radio_border">#FF424242</color>
+    <color name="card_bg">#1E1E1E</color>
+    <color name="card_stroke">#444444</color>
+    <color name="optionColor">#FFFFFF</color>
+</resources>

@@ -1,0 +1,16 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Base.Theme.JavaQuizApp" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/main</item>
+        <item name="quiz_background">@color/dark_background</item>
+        <item name="card_background">@color/dark_card_bg</item>
+        <item name="card_border_colour">@color/dark_gray_stroke</item>
+        <item name="text_colour">@color/white</item>
+        <item name="button_colour">@color/dark_pink</item>
+        <item name="radio_button_background">#FF2D2D2D</item>
+        <item name="radio_button_border">#FF424242</item>
+    </style>
+
+    <style name="Theme.BottomNavigationView.ActiveIndicator" parent="Widget.Material3.BottomNavigationView.ActiveIndicator">
+        <item name="android:color">@color/active</item>
+    </style>
+</resources>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:background="@drawable/fragment_start_background"
+    android:padding="16dp">
+
+    <ImageView
+        android:id="@+id/logoImageView"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:src="@drawable/quiz_logo"
+        android:layout_marginTop="50dp"
+        android:contentDescription="@string/app_logo" />
+
+    <TextView
+        android:id="@+id/titleTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="JavaXpert"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_marginTop="16dp" />
+
+    <TextView
+        android:id="@+id/subtitleTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Master Java, One Quiz at a Time!"
+        android:textSize="18sp"
+        android:textColor="@color/dark_gray_stroke"
+        android:layout_marginTop="8dp" />
+
+    <Button
+        android:id="@+id/btn_start_quiz"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Start Quiz"
+        android:textSize="18sp"
+        android:backgroundTint="@color/pink"
+        android:textColor="@android:color/white"
+        android:layout_marginTop="32dp"
+        android:padding="16dp" />
+
+</LinearLayout>

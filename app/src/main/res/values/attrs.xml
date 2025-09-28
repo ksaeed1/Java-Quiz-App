@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="quiz_background" format="color|reference" />
+    <attr name="card_background" format="color|reference" />
+    <attr name="card_border_colour" format="color|reference" />
+    <attr name="text_colour" format="color|reference" />
+    <attr name="button_colour" format="color|reference" />
+    <attr name="radio_button_background" format="color|reference" />
+    <attr name="radio_button_border" format="color|reference" />
+</resources>
