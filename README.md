@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Java Quiz Application
 
 # Overview
@@ -21,6 +20,4 @@ This project is for the Mobile Application Development module. The application i
 -	To switch to dark mode, click on Settings in the navigation bar and toggle the “Enable Dark Mode” (on or off).
     - Important note: Make sure to change to dark mode from the Start screen, not during the quiz as changing it while in the quiz will cause you to lose your progress.
 -	To set a reminder, you can also find this in the Settings screen.
-=======
-# Java-Quiz-App
 
